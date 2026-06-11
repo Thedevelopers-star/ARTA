@@ -1,0 +1,1539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="ARTA is a Falcon-inspired digital architect crafting luxury web experiences with premium UI/UX design.">
+<meta name="keywords" content="ARTA, Falcon, Falcon design, Falcon branding, Falcon web, Falcon website, Falcon site, Falcon portfolio, Falcon digital, Falcon UX, Falcon UI, Falcon logo, Digital architect, luxury web design, premium UI/UX, premium web design, luxury brand, luxury digital, digital experience, brand design, visual design, web architecture, web strategy, responsive web, mobile-first design, browser-friendly, cross-browser design, SEO friendly, search engine optimization, searchless keyword, browser visibility, site visibility, digital visibility, online presence, brand presence, creative website, modern web design, elegant website, minimal web design, immersive website, interactive design, motion design, sleek interface, polished UI, premium interface, luxury interface, high-end website, elite web design, bespoke website, custom web design, custom branding, brand identity, identity design, brand architecture, digital branding, brand storytelling, storytelling design, visual storytelling, project showcase, portfolio website, creative portfolio, digital portfolio, agency portfolio, studio website, design agency, creative studio, digital studio, web studio, digital consultancy, design consultancy, luxury consultancy, UX design, UI design, product design, interface design, experience design, user-centered design, user experience, user interface, conversion design, conversion optimization, content design, visual hierarchy, typography design, premium typography, brand typography, color palette, dark mode design, futuristic design, bold design, stylish website, elegant UX, classy website, modern branding, premium branding, web innovation, design innovation, digital innovation, performance design, fast website, speed optimization, PageSpeed, accessibility design, inclusive design, modern interface, creative direction, art direction, brand direction, luxury digital experience, premium digital experience, web craftsmanship, digital craftsmanship, site architecture, navigation design, menu design, hero design, hero section, landing page, landing page design, call to action, CTA design, visual polish, brand polish, microinteraction, hover effects, subtle animation, parallax design, scroll animation, immersive scroll, glassmorphism, modern aesthetic, chrome design, metallic design, black and silver, dark luxury, contrast design, gradient design, premium gradient, radial gradient, website hero, brand hero, brand launch site, campaign website, product launch website, service website, business website, creative business, entrepreneurial design, founder website, personal brand, digital identity, online branding, web marketing, digital marketing, marketing website, lead generation, inbound marketing, brand engagement, audience experience, customer experience, CX design, design systems, interface systems, style guide, digital style guide, custom icons, icon design, logo design, brand assets, hero imagery, premium imagery, visual assets, image optimization, background image, falcon image, falcon background, falcon hero, falcon skyline, falcon identity, falcon luxury, falcon mythology, falcon wings, falcon symbol, falcon brand, falcon creative, falcon digital studio, falcon experience, falcon keyword, falcon searchless, FalconSearchless, falcon visibility, falcon SEO, falcon metadata, falcon page, falcon browser, falcon architecture, falcon aesthetic, falcon premium, falcon elite, falcon site visibility">
+<meta name="robots" content="index, follow">
+<meta name="author" content="ARTA Digital Architect">
+<meta name="generator" content="Falcon">
+<meta name="application-name" content="ARTA Falcon">
+<meta name="theme-color" content="#000000">
+<link rel="icon" href="image1.jpg" type="image/jpeg">
+<link rel="image_src" href="image1.jpg">
+<meta property="og:title" content="ARTA | Digital Architect">
+<meta property="og:description" content="Falcon-inspired digital architect crafting luxury web experiences for premium brands.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="image1.jpg">
+<meta property="og:image:alt" content="Falcon">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ARTA | Digital Architect">
+<meta name="twitter:description" content="Falcon-inspired digital architect crafting luxury web experiences for premium brands.">
+<meta name="twitter:image" content="image1.jpg">
+<link rel="canonical" href="https://arta-sites.vercel.app/about.html">
+<link rel="sitemap" type="application/xml" href="https://arta-sites.vercel.app/sitemap.xml">
+<meta property="og:url" content="https://arta-sites.vercel.app/about.html">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":"ARTA | Digital Architect","url":"https://arta-sites.vercel.app/about.html","description":"Falcon-inspired digital architect crafting luxury web experiences with premium UI/UX design.","image":"image1.jpg","publisher":{"@type":"Organization","name":"ARTA","logo":"image1.jpg"}}
+</script>
+<title>ARTA | Digital Architect</title>
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family: 'Segoe UI', sans-serif;
+  
+  color:#fff;
+  overflow-x:hidden;
+}
+        :root {
+            --bg-dark: #080808;
+            --shade-gold: linear-gradient(to right, black, gray 50%, silver 100%);
+            --glow: grey;
+            --transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+/* --- NAVIGATION MASTER STYLES --- */
+.main-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px 0;
+  z-index: 2000; /* Above lamps */
+  background: #000; /* Solid black to prevent element bleed */
+  backdrop-filter: none;
+    transition: 0.4s;
+}
+
+.nav-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.nav-logo-img { height: 36px; width: auto; display: block; }
+
+.desktop-links {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.desktop-links a {
+    text-decoration: none;
+    color: #888;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
+
+.desktop-links a:hover { color: #fff; }
+
+/* Hamburger */
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    gap: 6px;
+    z-index: 3000;
+}
+
+.bar {
+    width: 25px;
+    height: 2px;
+    background: #fff;
+    transition: 0.4s;
+}
+
+/* --- MOBILE SIDEBAR (50% SLIDE) --- */
+.mobile-sidebar {
+    position: fixed;
+    top: 0;
+    right: -50%; /* Start hidden */
+    width: 50%;
+    height: 100vh;
+    background: rgba(10, 10, 10, 0.95);
+    backdrop-filter: blur(20px);
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    z-index: 2500;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 40px;
+    transition: 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.mobile-sidebar.open {
+    right: 0;
+}
+
+.nav-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 2400;
+    transition: 0.4s;
+}
+
+.nav-overlay.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.mobile-links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.mobile-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.sidebar-footer {
+    margin-top: auto;
+    font-size: 10px;
+    color: #444;
+    letter-spacing: 2px;
+}
+
+/* Scroll Lock Class */
+body.no-scroll {
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    .desktop-links { display: none; }
+    .menu-toggle { display: flex; }
+}
+
+/* --- UPDATED HERO & CINEMATIC BG --- */
+.hero {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background: #000; /* Fallback */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* Replace URL with your workspace silhouette or design image */
+  background-image: url('image2.jpg'); 
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%) brightness(0.3);
+  transform: scale(1.1);
+  transition: transform 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+  z-index: 1;
+}
+
+/* Adds a vignette to make text pop */
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle, transparent 20%, #000 100%);
+  z-index: 2;
+}
+
+.hero-content { 
+  position: relative;
+  z-index: 5;
+  text-align: center; 
+  opacity: 0; 
+  transform: translateY(30px);
+  transition: opacity 1.5s ease, transform 1.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  pointer-events: none; 
+}
+
+.hero-content.visible { 
+  opacity: 1; 
+  transform: translateY(0);
+  pointer-events: auto; 
+}
+
+/* Triggered when Hero is active */
+.hero.active .hero-bg {
+    transform: scale(1);
+}
+
+.hero-separator {
+    width: 60px;
+    height: 1px;
+    background: rgba(255,255,255,0.3);
+    margin: 20px auto;
+}
+
+.brand { 
+  font-size: clamp(40px, 8vw, 90px); 
+  font-family: 'Playfair Display', serif; 
+  line-height: 1.1; 
+  letter-spacing: -2px;
+}
+
+.tagline { 
+  font-size: 12px; 
+  letter-spacing: 6px; 
+  text-transform: uppercase; 
+  color: #888; 
+}
+
+.intro-container {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+  z-index: 100; 
+  transition: all 1s cubic-bezier(0.85, 0, 0.15, 1);
+  pointer-events: none; 
+}
+
+.intro-container.shrunk {
+  height: 80px; 
+  background: rgba(0, 0, 0, 0.9); 
+  backdrop-filter: blur(10px); 
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.logo-wrapper { text-align: center; transition: transform 1s cubic-bezier(0.85, 0, 0.15, 1); }
+.intro-container.shrunk .logo-wrapper { transform: scale(0.3); }
+.logo-text { font-size: 4rem; font-weight: 700; letter-spacing: 12px; text-transform: uppercase; }
+.underline { height: 4px; background: #fff; width: 100%; margin-top: 10px; transform: scaleX(0); transform-origin: left; opacity: 0; transition: transform 0.8s ease-out, opacity 0.3s ease; }
+.underline.draw { transform: scaleX(0.5); opacity: 1; }
+
+.hero-content { text-align: center; opacity: 0; pointer-events: none; }
+.hero-content.visible { opacity: 1; pointer-events: auto; }
+.brand { font-size: clamp(40px, 8vw, 90px); font-family: 'Playfair Display', serif; line-height: 1.1; }
+.tagline { margin-top: 20px; font-size: 14px; letter-spacing: 2px; text-transform: uppercase; color: #aaa; }
+
+/* --- STACKING CARDS SYSTEM --- */
+.section {
+  
+  width: 100%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.section.s1 {
+  min-height: 100vh;
+}
+
+.section.s2 {
+  overflow: visibl;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  box-shadow: 0 -10px 50px rgba(0,0,0,0.5); 
+}
+
+.section.s1 .card {
+  height: auto;
+}
+/* --- S1 STORY CARD STYLES --- */
+.story-card-container {
+    background: #fff !important;
+    perspective: 1500px; /* Essential for 3D tilt */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.glass-story-card {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    padding: 40px 30px;
+    background: #000;
+    border: 1px solid rgba(192, 192, 192, 0.2);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    z-index: 10;
+    transition: transform 0.2s ease-out, border-color 0.4s ease;
+    transform-style: preserve-3d;
+}
+
+.glass-story-card:hover {
+    border-color: rgba(192, 192, 192, 0.5);
+    background: #111;
+}
+
+/* Internal Glow Effect */
+.card-glow {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at var(--mouse-x, 50%) var(--mouse-y, 50%), 
+                rgba(255,255,255,0.08) 0%, 
+                transparent 60%);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    pointer-events: none;
+    border-radius: 20px;
+}
+
+.glass-story-card:hover .card-glow {
+    opacity: 1;
+}
+
+.story-image-wrapper {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.story-image-wrapper img {
+    width: 100%;
+    height: auto;
+    border-radius: 24px;
+    object-fit: cover;
+    border: 1px solid rgba(255,255,255,0.12);
+    box-shadow: 0 30px 80px rgba(0,0,0,0.35);
+}
+
+.story-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+    opacity: 1;
+}
+
+.story-text-block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media (min-width: 1024px) {
+    .story-card-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .glass-story-card {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    .story-content {
+        flex-direction: row;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .story-image-wrapper {
+        display: block;
+        width: 320px;
+        min-width: 320px;
+        max-width: 380px;
+        align-self: flex-start;
+        margin-bottom: 0;
+    }
+
+    .story-text-block {
+        max-width: calc(100% - 340px);
+    }
+    .story-content {
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      width: 100%;
+    }
+
+    .story-header {
+      width: 100%;
+      text-align: left;
+      margin-bottom: 24px;
+    }
+
+    .story-main {
+      display: flex;
+      gap: 40px;
+      align-items: flex-start;
+      width: 100%;
+    }
+
+    .story-image-wrapper {
+      display: block;
+      width: 320px;
+      min-width: 320px;
+      max-width: 380px;
+      align-self: flex-start;
+      margin-bottom: 0;
+    }
+
+    .story-text-block {
+      flex: 1 1 auto;
+      max-width: calc(100% - 340px);
+    }
+}
+
+@media (max-width: 1023px) {
+    .story-card-container {
+        padding: 30px 20px;
+    }
+    .glass-story-card {
+        padding: 30px 20px;
+    }
+    .story-content {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .story-image-wrapper {
+        width: 100%;
+    }
+    .story-text-block {
+        max-width: 100%;
+    }
+    .story-title {
+        font-size: clamp(1.8rem, 6vw, 2.4rem);
+    }
+    .story-text {
+        font-size: 0.98rem;
+        line-height: 1.9;
+        word-break: break-word;
+        overflow-wrap: break-word;
+    }
+}
+
+.story-title {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1.8rem, 4vw, 2.8rem);
+    margin-bottom: 10px;
+    color: #fff;
+    opacity: 0;
+    transform: translateZ(30px); /* Pops out on 3D */
+    transition: opacity 1s ease;
+}
+
+.title-underline {
+    width: 50px;
+    height: 1px;
+    background: #fff;
+    margin-bottom: 30px;
+    transition: width 0.6s ease;
+}
+
+.glass-story-card:hover .title-underline {
+    width: 100px;
+}
+
+.story-text {
+    font-size: clamp(0.9rem, 1.1vw, 1rem);
+    line-height: 1.8;
+    color: #aaa; /* Silver/Gray */
+    text-transform: none; /* Keep readable */
+    letter-spacing: 0.5px;
+    transform: none;
+    opacity: 1;
+}
+
+.story-title.visible { opacity: 1; }
+
+/* --- S2 TIMELINE STYLES --- */
+.timeline-card {
+    position: relative;
+    z-index: 5;
+    background: #c0c0c0 !important;
+    padding: 80px 0;
+    overflow-y: visible !important;
+    height: auto;
+}
+
+.timeline-container {
+    
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* Central Line */
+.timeline-line {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 100%;
+    background: #000;
+}
+
+.line-progress {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 0%; /* Animated via JS */
+    background: linear-gradient(to bottom, #c0c0c0, #808080);
+    box-shadow: 0 0 15px rgba(192, 192, 192, 0.5);
+    transition: height 0.1s linear;
+}
+
+/* Individual Milestones */
+/* --- CINEMATIC TEXT REVEAL --- */
+.milestone .m-title, 
+.milestone .m-date, 
+.systems-title,
+.bar-label {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 
+        opacity 1.2s ease, 
+        transform 1.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+    will-change: transform, opacity;
+}
+
+/* The Trigger Class */
+.visible .m-title,
+.visible .m-date,
+.visible .systems-title,
+.visible .bar-label {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Staggered entry for Milestone internal text */
+.milestone.visible .m-date { transition-delay: 0.1s; }
+.milestone.visible .m-title { transition-delay: 0.2s; }
+.milestone.visible .m-desc { 
+    transition-delay: 0.3s; 
+    opacity: 1; /* Description just fades in smoothly */
+}
+
+/* S3 Bar labels stagger */
+.bar-group:nth-child(1) .bar-label { transition-delay: 0.1s; }
+.bar-group:nth-child(2) .bar-label { transition-delay: 0.2s; }
+.bar-group:nth-child(3) .bar-label { transition-delay: 0.3s; }
+.bar-group:nth-child(4) .bar-label { transition-delay: 0.4s; }
+.bar-group:nth-child(5) .bar-label { transition-delay: 0.5s; }
+
+
+.left-side { padding-right: 50px; text-align: right; left: 0; transform: translateX(-30px); }
+.right-side { padding-left: 50px; text-align: left; left: 50%; transform: translateX(30px); }
+
+.milestone.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Glass Milestone Box */
+.m-content {
+    background: #000;
+    border: 1px solid rgba(192, 192, 192, 0.2);
+    padding: 25px;
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+    transition: border 0.3s ease;
+}
+
+.m-content:hover {
+    border-color: rgba(247, 231, 206, 0.5);
+    background: #111;
+}
+
+.m-date {
+    font-size: 0.7rem;
+    letter-spacing: 3px;
+    color: #F7E7CE; /* Champagne */
+    text-transform: uppercase;
+}
+
+.m-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem;
+    margin: 10px 0;
+    color: #fff;
+    text-transform: none; /* Lowercase for elegance */
+    letter-spacing: 0;
+}
+
+.m-award {
+    font-size: 0.75rem;
+    color: #aaa;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.m-desc {
+    font-size: 0.85rem;
+    color: #666;
+    line-height: 1.6;
+    text-transform: none;
+    letter-spacing: 0.5px;
+}
+
+/* The Connecting Dots */
+.m-dot {
+    position: absolute;
+    top: 30px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #000;
+    border: 2px solid #fff;
+    z-index: 2;
+}
+
+.left-side .m-dot { right: -6px; }
+.right-side .m-dot { left: -6px; }
+
+.silver-glow { box-shadow: 0 0 10px silver; border-color: silver; }
+.champagne-glow { box-shadow: 0 0 10px #F7E7CE; border-color: #F7E7CE; }
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .timeline-line { left: 20px; }
+    .milestone { width: 100%; left: 0; text-align: left; padding-left: 50px; padding-right: 0; }
+    .left-side .m-dot, .right-side .m-dot { left: 14px; }
+}
+/* --- S3 CAPABILITIES STYLES --- */
+.systems-card {
+    background: #fff !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 5%;
+}
+
+.systems-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.systems-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.systems-subtitle {
+    font-size: 0.75rem;
+    color: #333;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+/* --- THE MATRIX --- */
+.matrix-container {
+    display: flex;
+    gap: 40px;
+    align-items: flex-end;
+    height: 400px;
+}
+
+.capability-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80px;
+}
+
+/* The Glass Column Tube */
+.glass-column {
+    position: relative;
+    width: 40px;
+    height: 300px;
+    background: rgba(0, 0, 0, 0.03);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-bottom: none;
+    backdrop-filter: blur(5px);
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: inset 0 0 15px rgba(0,0,0,0.1);
+}
+
+/* The Liquid Fill */
+.liquid-fill {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0%; /* Animates via JS */
+    transition: height 2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.liquid-fill.silver { background: linear-gradient(to top, #000, #333, #666, #c0c0c0); }
+.liquid-fill.white { background: linear-gradient(to top, #000, #333, #666, #c0c0c0); }
+
+/* Shine reflection on the fill */
+.fill-reflection {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 20%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.15);
+    filter: blur(2px);
+}
+
+/* --- INFO LABELS --- */
+.cap-info {
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.cap-label {
+    display: block;
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.cap-value {
+    font-size: 0.8rem;
+    color: #000;
+    font-weight: 300;
+}
+
+/* Responsive Fix */
+@media (max-width: 768px) {
+    .matrix-container { gap: 15px; height: auto; flex-wrap: wrap; justify-content: center; }
+    .glass-column { height: 200px; width: 30px; }
+}
+
+
+/* Colors - Black, White, Silver themes */
+.s1 .card { background: #0a0a0a; color: #fff; }
+.s2 .card { background: #1a1a1a; color: #c0c0c0; border-top: 1px solid rgba(255,255,255,0.1); }
+.s3 .card { background: #f0f0f0; color: #000; }
+.s4 .card { background: #000000; color: #fff; border-top: 1px solid rgba(192,192,192,0.3); }
+.s5 .card { background: red; color: #fff; border-top: 1px solid rgba(192,192,192,0.3); }
+
+/* --- HANGING LAMP ANIMATIONS --- */
+@keyframes swing {
+  0% { transform: translateX(-50%) rotate(-3deg); }
+  50% { transform: translateX(-50%) rotate(3deg); }
+  100% { transform: translateX(-50%) rotate(-3deg); }
+}
+
+@keyframes glowPulse {
+  0%,100% { opacity: 0.25; }
+  50% { opacity: 0.35; }
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .nav-links { display: none; }
+    .menu-toggle { display: flex; }
+    .logo-text { font-size: 3rem; }
+}
+/* FOOTER STYLING */
+  .footer-section {
+    width: 100%;
+    padding: 80px 20px;
+    background: #000;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-glass-card {
+    width: 100%;
+    max-width: 1000px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    padding: 60px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+  }
+
+  .footer-header {
+    text-align: center;
+  }
+
+  .footer-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    color: #fff;
+    margin: 0;
+  }
+
+  .footer-status {
+    color: #666;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-top: 10px;
+  }
+
+  .social-cubes {
+    display: flex;
+    gap: 40px;
+    perspective: 1000px;
+  }
+
+  .cube-wrapper {
+    width: 60px;
+    height: 60px;
+  }
+
+  .cube {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+    transform: rotateX(-15deg) rotateY(20deg);
+  }
+
+  .face {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(145deg, #1a1a1a, #000);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    backface-visibility: hidden;
+  }
+
+  .face svg {
+    width: 24px;
+    height: 24px;
+    fill: #888;
+    transition: fill 0.3s, transform 0.3s;
+  }
+
+  .front { transform: rotateY(0deg) translateZ(30px); }
+  .back { transform: rotateY(180deg) translateZ(30px); }
+  .right { transform: rotateY(90deg) translateZ(30px); }
+  .left { transform: rotateY(-90deg) translateZ(30px); }
+  .top { transform: rotateX(90deg) translateZ(30px); }
+  .bottom { transform: rotateX(-90deg) translateZ(30px); }
+
+  .cube:hover { transform: rotateX(0deg) rotateY(0deg) scale(1.1) !important; }
+  .cube:hover .face { border-color: #fff; background: #fff; }
+  .cube:hover svg { fill: #000; transform: scale(1.1); }
+
+  .footer-bottom {
+    width: 100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: #444;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  .footer-meta {
+    display: flex;
+    gap: 30px;
+  }
+  /* --- HIGH-END CLOSING STYLES --- */
+.high-end-cta {
+    margin-top: 100px;
+    padding-top: 80px;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    text-align: center;
+    background: #808080;
+}
+
+.cta-headline {
+    font-size: clamp(2rem, 4vw, 3rem);
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 15px;
+}
+
+.cta-subtext {
+    color: #555;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    margin-bottom: 50px;
+}
+
+/* --- REVEAL ENGINE --- */
+.cta-reveal-box {
+    overflow: hidden; /* This creates the "bottom reveal" floor */
+    padding-top: 20px;
+}
+
+.cta-button-row {
+    display: flex;
+    justify-content: center;
+    gap: 25px; /* Hidden below the floor */
+    transition: transform 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+/* Trigger reveal when parent is visible or hovered */
+.high-end-cta:hover .cta-button-row {
+    transform: translateY(0);
+}
+
+.reveal-btn-wrapper {
+    position: relative;
+}
+
+.btn-iconic {
+    position: relative;
+    display: inline-block;
+    padding: 20px 45px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    transition: 0.4s;
+}
+
+.btn-iconic.primary {
+    background: #fff;
+    color: #000;
+    border: 1px solid black;
+}
+
+.btn-iconic.secondary {
+    background: transparent;
+    background: black;
+    color: #fff;
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+/* --- THE SILVER GLOW EFFECT --- */
+.btn-glow {
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.4);
+    filter: blur(20px);
+    opacity: 0;
+    transition: 0.4s;
+    z-index: -1;
+}
+
+.btn-iconic:hover .btn-glow {
+    opacity: 1;
+}
+
+.btn-iconic:hover {
+    transform: translateY(-5px);
+    border-color: #fff;
+}
+
+.scarcity-tagline {
+    display: block;
+    margin-top: 30px;
+    font-size: 0.6rem;
+    color: #333;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    opacity: 0;
+    transition: 1s ease 0.4s; /* Delays appearance slightly after buttons */
+}
+
+.high-end-cta:hover .scarcity-tagline {
+    opacity: 1;
+}
+.high-end-cta img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    top: 0;
+    left: 0;
+}
+
+
+/* Master Power Dimming */
+body.lights-off .card, 
+body.lights-off .section {
+    opacity: 0.7 !important;
+    filter: grayscale(0.6) blur(0.5px);
+    transition: all 0.6s ease;
+}
+
+.chat-float{
+  position:fixed;
+  right:30px;
+  bottom:30px;
+  z-index:3000;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:12px 20px;
+  gap:10px;
+  border-radius:30px;
+  min-width:160px;
+  color:#fff;
+  text-decoration:none;
+  font-weight:600;
+  font-family:inherit;
+  box-shadow:0 10px 40px rgba(0,0,0,0.6);
+  transition:transform .3s cubic-bezier(0.23,1,0.32,1),box-shadow .3s;
+  background: linear-gradient(90deg,#ff6b6b,#6b8bff,#7afcff);
+  background-size:300% 300%;
+  animation: colorShift 6s linear infinite;
+}
+.chat-float:hover{ transform:translateY(-8px) scale(1.03); box-shadow:0 18px 50px rgba(0,0,0,0.7); filter:brightness(1.03); }
+.chat-float svg{ display: none; }
+
+@keyframes colorShift{ 0%{background-position:0% 50%;} 50%{background-position:100% 50%;} 100%{background-position:0% 50%;} }
+
+@media(max-width:600px){ .chat-float{right:20px;bottom:20px;min-width:140px;padding:10px 14px} }
+</style>
+</head>
+
+<body id="room">
+
+<header class="main-nav">
+    <div class="nav-container">
+    <a href="index.html" class="nav-logo"><img src="image1.jpg" alt="Falcon logo" class="nav-logo-img"></a>
+        
+        <ul class="desktop-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a style="color: silver; text-decoration: underline;" href="about.html">About</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="contact.html">Contacts</a></li>
+        </ul>
+
+        <div class="menu-toggle" id="menuToggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+                        <div class="bar"></div>
+        </div>
+    </div>
+</header>
+
+<script>
+// Ensure hero content is visible on non-index pages
+document.addEventListener('DOMContentLoaded', function(){
+  var hc = document.getElementById('heroContent');
+  if(hc) hc.classList.add('visible');
+  var nav = document.querySelector('.main-nav');
+  if(nav) nav.classList.add('visible');
+});
+</script>
+
+
+<div class="nav-overlay" id="navOverlay"></div>
+<nav class="mobile-sidebar" id="mobileSidebar">
+    <ul class="mobile-links">
+        <li><a href="index.html" onclick="closeMenu()">Home</a></li>
+        <li><a style="color: silver; text-decoration: underline;" href="about.html" onclick="closeMenu()">About</a></li>
+        <li><a href="work.html" onclick="closeMenu()">Work</a></li>
+        <li><a href="contact.html" onclick="closeMenu()">Contacts</a></li>
+    </ul>
+    <div class="sidebar-footer">© 2026 ARCHITECT</div>
+</nav>
+
+<div class="hero" id="heroSection">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+
+  <!-- intro loader removed for non-index page -->
+
+  <div class="hero-content" id="heroContent">
+    <div class="hero-text-wrapper">
+        <h1 class="brand">ARTA</h1>
+        <div class="hero-separator"></div>
+        <p class="tagline">Precision. Vision. Impact.</p>
+    </div>
+  </div>
+</div>
+
+<!-- --- SECTIONS --- -->
+<section class="section s1" id="storySection">
+  <div class="card story-card-container">
+    <div class="story-background-layer layer1"></div>
+    <div class="story-background-layer layer2"></div>
+
+    <div class="glass-story-card" id="interactiveCard">
+      <div class="card-glow"></div>
+      <div class="story-content">
+        <div class="story-header">
+          <h2 class="story-title visible" id="storyTitle">About ARTA</h2>
+          <div class="title-underline"></div>
+        </div>
+        <div class="story-main">
+          <div class="story-image-wrapper">
+            <img src="image.png" alt="ARTA Desk" />
+          </div>
+          <div class="story-text-block">
+            <p class="story-text" id="storyText">
+            From the very first time I interacted with code and design, I realized that every digital experience has the potential to be a work of art. What began as curiosity has evolved into a lifelong pursuit of excellence, where precision meets imagination, and every interface tells a story. My approach bridges technology and artistry—crafting digital architectures that are not only functional but poetic, where every animation, color, and interaction is deliberate. I specialize in curating experiences that feel intuitive yet exclusive, where subtlety becomes sophistication and simplicity conveys luxury.
+            Over the years, I have honed my craft through experimentation, challenges, and successes, learning to transform complex ideas into seamless, timeless solutions. I believe that design is not just what users see— it’s what they feel, anticipate, and remember. Every project is an opportunity to push boundaries, redefine digital excellence, and leave a lasting impression.
+            I build experiences for those who value clarity, elegance, and innovation—where each pixel is intentional, every interaction meaningful, and the result is a digital journey as refined and precise as it is captivating.
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section s2" id="timelineSection">
+    <div class="card timeline-card">
+        <div class="timeline-container">
+            <div class="section-heading" style="text-align:center; margin-bottom:40px;">
+                <h2 style="font-family: 'Playfair Display', serif; font-size: clamp(2rem, 3vw, 3rem); color: #fff; letter-spacing: 2px;">Timeline</h2>
+            </div>
+            <div class="timeline-line">
+                <div class="line-progress" id="lineProgress"></div>
+            </div>
+
+            <div class="milestone left-side fade-in-up">
+                <div class="m-content">
+                    <span class="m-date">2024 — Present</span>
+                    <h3 class="m-title">Golden Eagle Alliance</h3>
+                    <p class="m-desc">Founded a youth-led business community focused on financial literacy and structural leadership.</p>
+                </div>
+                <div class="m-dot silver-glow"></div>
+            </div>
+<br>
+            <div class="milestone right-side fade-in-up">
+                <div class="m-content">
+                    <span class="m-date">2025 — Present</span>
+                    <h3 class="m-title">Rachel — AI Business Receptionist</h3>
+                    <p class="m-desc">In progress: building an intelligent virtual receptionist experience for seamless business intake and customer engagement.</p>
+                </div>
+                <div class="m-dot champagne-glow"></div>
+            </div>
+<br>
+            <div class="milestone left-side fade-in-up">
+                <div class="m-content">
+                    <span class="m-date">2025 — 2026</span>
+                    <h3 class="m-title">D-Silver Beauty College</h3>
+                    <p class="m-desc">Delivered website design, marketing strategy, and graphic design for a premium beauty education brand.</p>
+                </div>
+                <div class="m-dot silver-glow"></div>
+            </div>
+<br>
+            <div class="milestone right-side fade-in-up">
+                <div class="m-content">
+                    <span class="m-date">2026</span>
+                    <h3 class="m-title">GJ Developers</h3>
+                    <p class="m-desc">Launched a web design, marketing, and graphics startup poised to scale modern digital experiences.</p>
+                </div>
+                <div class="m-dot champagne-glow"></div>
+            </div>
+<br>
+            <div class="milestone right-side fade-in-up">
+                <div class="m-content">
+                    <span class="m-date">2026</span>
+                    <h3 class="m-title">Digital Architect Portfolio</h3>
+                    <p class="m-desc">Launching a new standard in UI/UX, blending Vanilla JS precision with cinematic aesthetics.</p>
+                </div>
+                <div class="m-dot champagne-glow"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section s3" id="systemsSection">
+  <div class="card systems-card">
+    <div class="systems-header">
+      <h2 class="systems-title">Core Capabilities</h2>
+      <p class="systems-subtitle">Technical proficiency meets architectural precision.</p>
+    </div>
+    
+    <div class="matrix-container">
+      <div class="capability-group">
+        <div class="glass-column">
+          <div class="liquid-fill silver" data-progress="95%">
+            <div class="fill-reflection"></div>
+          </div>
+        </div>
+        <div class="cap-info">
+          <span class="cap-label">UI/UX Design</span>
+          <span class="cap-value">95%</span>
+        </div>
+      </div>
+
+      <div class="capability-group">
+        <div class="glass-column">
+          <div class="liquid-fill white" data-progress="92%">
+            <div class="fill-reflection"></div>
+          </div>
+        </div>
+        <div class="cap-info">
+          <span class="cap-label">HTML5</span>
+          <span class="cap-value">92%</span>
+        </div>
+      </div>
+
+      <div class="capability-group">
+        <div class="glass-column">
+          <div class="liquid-fill silver" data-progress="90%">
+            <div class="fill-reflection"></div>
+          </div>
+        </div>
+        <div class="cap-info">
+          <span class="cap-label">CSS3 / SCSS</span>
+          <span class="cap-value">90%</span>
+        </div>
+      </div>
+
+      <div class="capability-group">
+        <div class="glass-column">
+          <div class="liquid-fill white" data-progress="88%">
+            <div class="fill-reflection"></div>
+          </div>
+        </div>
+        <div class="cap-info">
+          <span class="cap-label">JavaScript</span>
+          <span class="cap-value">88%</span>
+        </div>
+      </div>
+
+      <div class="capability-group">
+        <div class="glass-column">
+          <div class="liquid-fill silver" data-progress="85%">
+            <div class="fill-reflection"></div>
+          </div>
+        </div>
+        <div class="cap-info">
+          <span class="cap-label">Branding</span>
+          <span class="cap-value">85%</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <div class="high-end-cta">
+      <img src="image1.jpg" alt="Falcon logo"/>
+    <div class="cta-content">
+        <h2 class="cta-headline reveal" style="color: black;">Let’s Build Something Iconic</h2>
+        <p class="cta-subtext">Currently accepting only 2 select projects for Q2 2026.</p>
+        
+        <div class="cta-reveal-box">
+            <div class="cta-button-row">
+                <div class="reveal-btn-wrapper">
+                    <a href="contact.html" class="btn-iconic primary">
+                        <span class="btn-inner">Book Call</span>
+                        <span class="btn-glow"></span>
+                    </a>
+                </div>
+                
+                <div class="reveal-btn-wrapper">
+                    <a href="contact.html" class="btn-iconic secondary">
+                        <span class="btn-inner">Start Project</span>
+                        <span class="btn-glow"></span>
+                    </a>
+                </div>
+            </div>
+            <span class="scarcity-tagline">Limited Client Slots Available</span>
+        </div>
+    </div>
+</div>
+
+<footer class="footer-section">
+  <div class="footer-glass-card">
+    <div class="footer-header">
+      <h2 class="footer-title">Let's Connect</h2>
+      
+    </div>
+
+    <!-- Social Cubes -->
+    <div class="social-cubes">
+      <!-- Instagram Cube -->
+      <div class="cube-wrapper">
+        <a href="https://www.instagram.com/arta_sites?igsh=Y29xYjh6ZTcyb3Zl" target="_blank" class="cube">
+          <div class="face front"><svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.35 3.608 1.325.974.976 1.262 2.242 1.325 3.608.058 1.266.069 1.645.069 4.85s-.011 3.584-.069 4.85c-.063 1.366-.351 2.633-1.325 3.608-.976.974-2.242 1.262-3.608 1.325-1.266.058-1.645.069-4.85.069s-3.584-.011-4.85-.069c-1.366-.063-2.633-.351-3.608-1.325-.974-.976-1.262-2.242-1.325-3.608C2.175 15.747 2.163 15.368 2.163 12s.012-3.584.07-4.85c.062-1.366.35-2.633 1.325-3.608.976-.974 2.242-1.262 3.608-1.325C8.416 2.175 8.795 2.163 12 2.163zm0-2.163C8.741 0 8.332.012 7.052.071 5.775.13 4.677.412 3.74 1.35 2.802 2.287 2.52 3.385 2.461 4.662 2.402 5.942 2.39 6.351 2.39 12s.012 6.058.071 7.338c.059 1.277.341 2.375 1.279 3.313.937.937 2.035 1.22 3.312 1.279 1.284.059 1.697.071 7.338.071s6.058-.012 7.338-.071c1.277-.059 2.375-.341 3.313-1.279.937-.938 1.22-2.036 1.279-3.313.059-1.284.071-1.697.071-7.338s-.012-6.058-.071-7.338c-.059-1.277-.341-2.375-1.279-3.313C20.713.412 19.615.13 18.338.071 17.058.012 16.649 0 12 0z"/><path d="M12 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.164a3.999 3.999 0 1 1 0-7.998 3.999 3.999 0 0 1 0 7.998z"/><circle cx="18.406" cy="5.594" r="1.44"/></svg></div>
+          <div class="face back"></div><div class="face right"></div><div class="face left"></div><div class="face top"></div><div class="face bottom"></div>
+        </a>
+      </div>
+
+      <!-- Facebook Cube -->
+      <div class="cube-wrapper">
+        <a href="https://www.facebook.com/share/1GFedwaK39/" target="_blank" class="cube">
+          <div class="face front"><svg viewBox="0 0 24 24"><path d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24h11.495V14.706h-3.13v-3.622h3.13V8.413c0-3.1 1.894-4.788 4.659-4.788 1.325 0 2.463.099 2.794.143v3.24l-1.918.001c-1.504 0-1.796.716-1.796 1.765v2.315h3.587l-.467 3.622h-3.12V24h6.116C23.407 24 24 23.407 24 22.676V1.325C24 .593 23.407 0 22.675 0z"/></svg></div>
+          <div class="face back"></div><div class="face right"></div><div class="face left"></div><div class="face top"></div><div class="face bottom"></div>
+        </a>
+      </div>
+
+      <!-- WhatsApp Cube -->
+      <div class="cube-wrapper">
+        <a href="https://wa.me/254746417553" target="_blank" class="cube">
+          <div class="face front">        <svg style="height: 35px; width: 35px;" viewBox="0 0 500 500">
+            <path d="M250 80C156.1 80 80 156.1 80 250C80 283.4 89.7 314.5 106.3 340.8L80 420L161.7 398.6C187.3 412.3 217.5 420 250 420C343.9 420 420 343.9 420 250C420 156.1 343.9 80 250 80Z"/>
+            <path d="M331.1 298.5C327.3 296.6 308.5 287.3 305 286C301.5 284.7 299 284.1 296.5 287.9C294 291.7 286.9 300.3 284.7 302.8C282.5 305.3 280.3 305.6 276.5 303.7C272.7 301.8 260.5 297.8 246.1 284.9C234.9 274.9 227.3 262.5 225.1 258.7C222.9 254.9 224.9 252.8 226.8 250.9C228.5 249.2 230.6 246.4 232.5 244.2C234.4 242 235 240.4 236.3 237.9C237.6 235.4 236.9 233.2 236 231.3C235.1 229.4 227.6 210.9 224.5 203.4C221.4 196.1 218.3 197.1 216 197C213.8 196.9 211.3 196.9 208.8 196.9C206.3 196.9 202.2 197.8 198.7 201.6C195.2 205.4 185.3 214.7 185.3 233.8C185.3 252.9 199.2 271.3 201.1 273.9C203 276.5 228.4 315.8 267.3 332.6C276.5 336.6 283.8 339.1 289.4 340.9C298.7 343.8 307.2 343.4 313.9 342.4C321.4 341.3 337 332.9 340.3 323.7C343.6 314.5 343.6 306.6 342.6 304.9C341.6 303.1 339.1 302.1 335.3 300.2L331.1 298.5Z" fill="silver"/>
+        </svg></div>
+          <div class="face back"></div><div class="face right"></div><div class="face left"></div><div class="face top"></div><div class="face bottom"></div>
+        </a>
+      </div>
+    </div>
+
+    <!-- Footer Bottom Info -->
+    <div class="footer-bottom">
+      <span class="copyright">© 2026 ARTA</span>
+      <div class="footer-meta">
+        <span>Kenya, Uplands</span>
+        <span id="local-time">00:00:00</span>
+      </div>
+    </div>
+  </div>
+</footer>
+<script>
+// Loader removed on non-index page
+
+// Scroll Trigger for Hero Content (Text fades as you scroll down)
+window.addEventListener('scroll', () => {
+    const scroll = window.scrollY;
+    const heroContent = document.getElementById('heroContent');
+    // Fades text out and slides up slightly during scroll
+    if (heroContent) {
+        heroContent.style.opacity = 1 - (scroll / 500);
+        heroContent.style.transform = `translateY(${scroll * 0.3}px)`;
+    }
+});
+// --- 1. 3D Tilt & Spotlight Glow Logic ---
+const card = document.getElementById('interactiveCard');
+
+card.addEventListener('mousemove', e => {
+    const rect = card.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    
+    // Set variables for the CSS spotlight glow
+    card.style.setProperty('--mouse-x', `${(x / rect.width) * 100}%`);
+    card.style.setProperty('--mouse-y', `${(y / rect.height) * 100}%`);
+    
+    // 3D Tilt calculation
+    const rotateX = ((y - rect.height / 2) / (rect.height / 2)) * -10; // Max 10deg
+    const rotateY = ((x - rect.width / 2) / (rect.width / 2)) * 10;
+    
+    card.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+});
+
+card.addEventListener('mouseleave', () => {
+    card.style.transform = `rotateX(0deg) rotateY(0deg)`;
+});
+
+// --- S2 TIMELINE ENGINE ---
+function updateTimeline() {
+    const timeline = document.getElementById('timelineSection');
+    const lineProgress = document.getElementById('lineProgress');
+    const milestones = document.querySelectorAll('.milestone');
+    
+    const sectionRect = timeline.getBoundingClientRect();
+    const windowHeight = window.innerHeight;
+
+    // 1. Calculate Line Growth
+    // Only starts growing when the section enters the viewport
+    if (sectionRect.top < windowHeight) {
+        const totalHeight = sectionRect.height;
+        const scrolledIn = windowHeight - sectionRect.top;
+        const progress = (scrolledIn / totalHeight) * 100;
+        
+        lineProgress.style.height = `${Math.min(100, Math.max(0, progress))}%`;
+    }
+
+    // 2. Trigger Milestone Slide-in
+    milestones.forEach(m => {
+        const mRect = m.getBoundingClientRect();
+        if (mRect.top < windowHeight * 0.85) {
+            m.classList.add('visible');
+        }
+    });
+}
+
+// Attach to scroll listener
+window.addEventListener('scroll', updateTimeline);
+function initCapabilities() {
+    const section = document.getElementById('systemsSection');
+    const fills = document.querySelectorAll('.bar-fill');
+    
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                fills.forEach((fill, index) => {
+                    setTimeout(() => {
+                        const target = fill.getAttribute('data-progress');
+                        fill.style.height = target;
+                        fill.parentElement.classList.add('active');
+                    }, index * 150); // Staggered entry
+                });
+            }
+        });
+    }, { threshold: 0.5 });
+
+    observer.observe(section);
+}
+
+window.addEventListener('load', initCapabilities);
+function initCapabilitiesMatrix() {
+    const section = document.getElementById('systemsSection');
+    const fills = document.querySelectorAll('.liquid-fill');
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                fills.forEach((fill, index) => {
+                    // Staggered fill animation
+                    setTimeout(() => {
+                        const targetProgress = fill.getAttribute('data-progress');
+                        fill.style.height = targetProgress;
+                    }, index * 200);
+                });
+            }
+        });
+    }, { threshold: 0.5 });
+
+    observer.observe(section);
+}
+
+window.addEventListener('load', initCapabilitiesMatrix);
+
+// Cube Hover Movement
+document.querySelectorAll('.cube-wrapper').forEach(wrapper => {
+    const cube = wrapper.querySelector('.cube');
+    wrapper.addEventListener('mousemove', e => {
+        const rect = wrapper.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+        const rotateX = ((y - (rect.height / 2)) / (rect.height / 2)) * 30;
+        const rotateY = ((x - (rect.width / 2)) / (rect.width / 2)) * 30;
+        cube.style.transform = `rotateX(${-rotateX - 15}deg) rotateY(${rotateY + 20}deg)`;
+    });
+    wrapper.addEventListener('mouseleave', () => {
+        cube.style.transform = 'rotateX(-15deg) rotateY(20deg)';
+    });
+});
+
+// Local Time Update
+function updateTime() {
+    const now = new Date();
+    document.getElementById('local-time').innerText = now.toLocaleTimeString('en-GB');
+}
+setInterval(updateTime, 1000);
+updateTime();
+const menuToggle = document.getElementById('menuToggle');
+const mobileSidebar = document.getElementById('mobileSidebar');
+const navOverlay = document.getElementById('navOverlay');
+const body = document.body;
+
+function toggleMenu() {
+    mobileSidebar.classList.toggle('open');
+    navOverlay.classList.toggle('visible');
+    body.classList.toggle('no-scroll');
+}
+
+function closeMenu() {
+    mobileSidebar.classList.remove('open');
+    navOverlay.classList.remove('visible');
+    body.classList.remove('no-scroll');
+}
+
+// Open/Close on Toggle click
+menuToggle.addEventListener('click', toggleMenu);
+
+// Close if clicking outside (the overlay)
+navOverlay.addEventListener('click', closeMenu);
+
+// Nav stays solid black on scroll (no transparency effect)
+</script>
+
+<a class="chat-float" href="https://arta-nellie-ai-assistant-chat-now.lovable.app" aria-label="Chat with Nellie">Chat With Nellie</a>
+</body>
+</html>

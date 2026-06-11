@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Disallow: /private/
+Disallow: /admin/
+
+# Sitemap reference for search engines
+Sitemap: https://arta-sites.vercel.app/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 1
+
+# Specific user-agent rules
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
